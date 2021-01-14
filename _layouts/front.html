@@ -1,0 +1,27 @@
+{% include html_head.html %}
+{% include html_body_start.html %}
+
+        <!-- start of hero -->
+        <section class="hero-slider hero-style-1">
+            <div class="swiper-container">
+
+                    <div class="swiper-slide">
+                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-2.jpg">
+                            <div class="container">
+                                <div data-swiper-parallax="300" class="slide-title">
+                                    <h2>{{ page.site_title }}</h2>
+                                </div>
+                                <div data-swiper-parallax="400" class="slide-text">
+                                    <p>{{ page.subtitle }}</p>
+                                </div>
+                            </div>
+                        </div> <!-- end slide-inner --> 
+                    </div> <!-- end swiper-slide -->
+                </div>
+                <!-- end swiper-wrapper -->
+
+            </div>
+        </section>
+        <!-- end of hero slider -->
+
+{% include html_footer.html %}

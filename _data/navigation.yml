@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Threats
+  link: /threats.html
+- name: Advisories
+  link: /advisories.html
+- name: News
+  link: /news.html
+- name: Contact
+  link: /contact.html
+- name: About
+  link: /about.html  

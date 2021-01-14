@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://0.0.0.0:4000/jekyll/update/2021/01/13/welcome-to-jekyll.html</loc>
+<lastmod>2021-01-13T21:28:38+01:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/about.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/advisories.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/contact.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/news.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/threats.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/assets/css/owl.video.play.html</loc>
+<lastmod>2021-01-13T21:38:45+01:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/assets/images/select-icon.html</loc>
+<lastmod>2021-01-13T21:38:45+01:00</lastmod>
+</url>
+</urlset>

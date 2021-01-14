@@ -1,0 +1,73 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 03/11/2019 03:38
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-play-button:before { content: "\f100"; }
+.flaticon-play-button-1:before { content: "\f101"; }
+.flaticon-play-button-2:before { content: "\f102"; }
+.flaticon-back:before { content: "\f103"; }
+.flaticon-next:before { content: "\f104"; }
+.flaticon-right-quote:before { content: "\f105"; }
+.flaticon-left-quote:before { content: "\f106"; }
+.flaticon-triangle:before { content: "\f107"; }
+.flaticon-play-button-3:before { content: "\f108"; }
+.flaticon-quote:before { content: "\f109"; }
+.flaticon-phone-call:before { content: "\f10a"; }
+.flaticon-call:before { content: "\f10b"; }
+.flaticon-contact:before { content: "\f10c"; }
+.flaticon-clock:before { content: "\f10d"; }
+.flaticon-fast:before { content: "\f10e"; }
+.flaticon-star:before { content: "\f10f"; }
+.flaticon-trophy:before { content: "\f110"; }
+.flaticon-time-management:before { content: "\f111"; }
+.flaticon-motivation:before { content: "\f112"; }
+.flaticon-leadership:before { content: "\f113"; }
+.flaticon-network:before { content: "\f114"; }
+.flaticon-network-1:before { content: "\f115"; }
+.flaticon-vegan:before { content: "\f116"; }
+.flaticon-circular-label-with-certified-stamp:before { content: "\f117"; }
+.flaticon-chip:before { content: "\f118"; }
+.flaticon-battery:before { content: "\f119"; }
+.flaticon-24-hours-support:before { content: "\f11a"; }
+.flaticon-24-hours:before { content: "\f11b"; }
+.flaticon-worker:before { content: "\f11c"; }
+.flaticon-engineer:before { content: "\f11d"; }
+.flaticon-helmet:before { content: "\f11e"; }
+.flaticon-like:before { content: "\f11f"; }
+.flaticon-like-1:before { content: "\f120"; }
+.flaticon-trophy-1:before { content: "\f121"; }
+.flaticon-trophy-2:before { content: "\f122"; }
+.flaticon-gear:before { content: "\f123"; }
+.flaticon-expansion:before { content: "\f124"; }
+.flaticon-oil:before { content: "\f125"; }
+.flaticon-pharmacy:before { content: "\f126"; }
+.flaticon-paint-palette:before { content: "\f127"; }
+.flaticon-solar-energy:before { content: "\f128"; }

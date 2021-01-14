@@ -1,0 +1,45 @@
+{% include html_head.html %}
+{% include html_body_start.html %}
+
+        <!-- start page-title -->
+        <section class="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <h2>{{ page.title }}</h2>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>        
+        <!-- end page-title -->
+
+        <!-- start about-us-section -->
+        <section class="about-us-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-12">
+                        <div class="section-title">
+                            <span>{{ page.title }}</span>
+                            <h2>{{ page.subtitle }}</h2>
+                        </div>
+                        <div class="details">
+                            {{ content }}
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end about-us-section -->
+
+        <!-- start cta-section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end cta-section -->
+
+{% include html_footer.html %}
