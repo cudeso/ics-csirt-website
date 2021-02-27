@@ -1,18 +1,18 @@
 ---
 title: News
 subtitle: ICS Security News
-layout: default
+layout: newsmain
 site_title: ICS-CSIRT.io
 site_mail: info@ics-csirt.io
 author: ics-csirt.io
---- 
-<p>The {{ page.site_title }} news section contains recent news about data breaches or security incidents related to industrial control systems.</p>
-<div class="clearfix">
-    <ul>
-        <li><i class="ti-check"></i> Data breaches</li>
-        <li><i class="ti-check"></i> Security incidents</li>
-    </ul>
-    <ul>
-        <li><i class="ti-check"></i> Legislations</li>
-    </ul>
+---
+
+<div class="blog-content">
+    {% for post in site.posts %}
+        <h1 style="font-size:18px;"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <ul class="entry-meta" style="margin-top: 0px;">
+            <li style="font-size:12px;"><i class="ti-time"></i> {{ post.date | date_to_string }}</li>
+            <li style="font-size:12px;"><i class="ti-book"></i> {{ post.category }}</li>
+        </ul>
+    {% endfor %}
 </div>
