@@ -14,16 +14,17 @@
         <!-- end page-title -->
 
         <!-- start about-us-section -->
-        <section class="blog-pg-section blog-pg-left-sidebar section-padding">
-            <div class="container">
+        <section class="about-us-section section-padding">
+            <div class="container blog-content">
                 <div class="row">
                     <div class="col col-md-12">
                         <div class="section-title">
-                            <span>{{ page.subtitle }}</span>
+                            <h2>{{ page.subtitle }}</h2>
                             <ul class="entry-meta" style="margin-top: 0px;">
                                 <li><i class="ti-time"></i> {{ page.date | date_to_string }}</li>
                                 <li><i class="ti-book"></i> {{ page.category }}</li>
                             </ul>
+
                         </div>
                         <div class="details">
                             {{ content }}

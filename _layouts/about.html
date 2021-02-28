@@ -1,0 +1,87 @@
+{% include html_head.html %}
+{% include html_body_start.html %}
+
+        <!-- start page-title -->
+        <section class="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <h2>{{ page.title }}</h2>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>        
+        <!-- end page-title -->
+
+        <!-- start about-us-section -->
+        <section class="about-us-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-12">
+                        <div class="section-title">
+                            <h2>{{ page.subtitle }}</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <section class="featured-project-section section-padding" style="padding:0;">
+            <div class="content-area">
+                <div class="project-grids clearfix">
+                    <div class="grid">
+                        <div class="overlay">
+                            <span class="count">01.</span>
+                            <h3>Threat information</h3>
+                            <p>Publish recent threat and security information relevant to ICS and SCADA environments.</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="overlay">
+                            <span class="count">02.</span>
+                            <h3>Create actionable data</h3>
+                            <p>Provide actionable data for ICS staff to support them in defending their organizations.</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="overlay">
+                            <span class="count">03.</span>
+                            <h3>Incident response</h3>
+                            <p>Support ICS staff in incident response and addressing attacks to ICS networks</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="overlay">
+                            <span class="count">04.</span>
+                            <h3>Community building</h3>
+                            <p>Build a community of ICS defenders.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-12">
+                        <div class="details">
+                            {{ content }}
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- end container -->
+        </section>
+
+        <!-- start cta-section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end cta-section -->
+
+{% include html_footer.html %}

@@ -1,7 +1,7 @@
 ---
 title: News
 subtitle: ICS Security News
-layout: newsmain
+layout: default
 site_title: ICS-CSIRT.io
 site_mail: info@ics-csirt.io
 author: ics-csirt.io
@@ -9,10 +9,11 @@ author: ics-csirt.io
 
 <div class="blog-content">
     {% for post in site.posts %}
-        <h1 style="font-size:18px;"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <ul class="entry-meta" style="margin-top: 0px;">
-            <li style="font-size:12px;"><i class="ti-time"></i> {{ post.date | date_to_string }}</li>
-            <li style="font-size:12px;"><i class="ti-book"></i> {{ post.category }}</li>
-        </ul>
-    {% endfor %}
+    <h1 style="font-size:18px;"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <ul class="entry-meta">
+        <li><i class="ti-time"></i> {{ post.date | date_to_string }}</li>
+        <li><i class="ti-book"></i> {{ post.category }}</li>
+    </ul>
+    <div class="clearfix"></div>
+{% endfor %} 
 </div>
