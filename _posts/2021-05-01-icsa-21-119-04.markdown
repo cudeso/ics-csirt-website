@@ -1,0 +1,16 @@
+---
+layout: news
+title:  ICS Advisory (ICSA-21-119-04)
+subtitle: Multiple RTOS
+date:   2021-05-01
+category: protect detect respond
+author: cudeso
+---
+An advisory from CISA reports on a public report, known as “BadAlloc” that details vulnerabilities found in multiple real-time operating systems (RTOS) and supporting libraries. 
+The CISA advisory provides early notice of the reported vulnerabilities and identify baseline mitigations for reducing risks to these and other cybersecurity attacks.
+
+- CVSS v3 9.8
+- ATTENTION: Exploitable remotely/low attack complexity
+- Vendors: Multiple
+- Equipment: Multiple
+- Vulnerabilities: Integer Overflow or Wraparound
