@@ -1,8 +1,8 @@
 ---
 layout: news
 title:  Siemens Advisory (SSA-661247)
-subtitle: SSA-661247: Apache Log4j Vulnerability (CVE-2021-44228, Log4Shell) - Impact to Siemens Products
-date:   2021-05-01
+subtitle: SSA-661247 Apache Log4j Vulnerability (CVE-2021-44228, Log4Shell) 
+date:   2021-12-13
 category: protect detect respond
 author: cudeso
 ---
