@@ -1,0 +1,18 @@
+---
+layout: news
+title:  OT:ICEFALL
+subtitle: 56 Vulnerabilities Caused by Insecure-by-Design Practices in OT
+date:   2022-06-24
+category: riskmanagement detection
+author: cudeso
+---
+The company Forescout published a research paper detailing 56 vulnerabilities in critical operational technology (OT) devices and protocols that they called [OT:Icefall](https://www.forescout.com/blog/ot-icefall-56-vulnerabilities-caused-by-insecure-by-design-practices-in-ot).
+
+They divided the vulnerabilities in four main categories:
+
+- Insecure engineering protocols
+- Weak cryptography or broken authentication schemes
+- Insecure firmware updates
+- Remote code execution via native functionality
+
+The report highlights that the vulnerabilities are not the result of bugs but rather design or default configuration flaws. Remarkable is that some of the products found to be vulnerable had achieved one or more security certifications.
