@@ -1,7 +1,7 @@
 ---
 layout: news
 title:  Campaigns abusing corporate trusted infrastructure
-subtitle: Campaigns abusing corporate trusted infrastructure hunt for corporate credentials on ICS networks: Spyware attacks infecting ICS computers across the globe
+subtitle: Campaigns abusing corporate trusted infrastructure hunt for corporate credentials on ICS networks
 date:   2022-01-20
 category: detect respond
 author: cudeso
