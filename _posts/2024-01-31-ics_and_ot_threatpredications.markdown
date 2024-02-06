@@ -11,11 +11,13 @@ From [Kaspersky: ICS and OT threat predictions for 2024 ](https://ics-cert.kaspe
 
 ### Ransomware
 
+<p>
 - Ransomware will remain the No. 1 scourge of industrial enterprises in 2024.
 - Ransomware attacks on large organizations, suppliers of unique products (equipment, materials), or big logistics and transport companies can have severe economic and social consequences.
 - The ransomware market is heading for a peak, which may be followed by a decline or stagnation. 
   - Attacks on logistics and transport companies may become targeted not at the IT infrastructure supporting operations, but the vehicles themselves (cars, ships).
   - The same vector applies equally to owners and operators of various specialized equipment operating at remote hard-to-reach sites, such as in mining or agriculture.
+</p>
 
 ### Hacktivists
 
