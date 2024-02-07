@@ -1,7 +1,7 @@
 ---
 layout: news
 title:   ICS and OT threat predictions for 2024 
-subtitle: 56 Vulnerabilities Caused by Insecure-by-Design Practices in OT
+subtitle: ICS and OT threat predictions for 2024 
 date:   2024-01-31
 category: ICS threats
 author: cudeso
