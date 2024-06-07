@@ -8,16 +8,57 @@ author: ics-csirt.io
 ---
 <p>{{ page.site_title }} is a <strong>community effort</strong> to disseminate security information on Industrial Control Systems. {{ page.site_title }} is not affiliated or linked with a governmental or commercial partner. Membership of {{ page.site_title }} is <strong>free</strong> and grants you access to a <a href="/threats.html">MISP</a> and <a href="/advisories.html">OpenCVE</a> instance. In return for membership we ask you to submit content to the ICS threat data.</p>
 
-<h3>Access and sharing conditions</h3>
+<h3>Access conditions</h3>
 <p>Send an e-mail to <a href="mailto:{{ page.site_mail }}?subject=BecomeMember">{{ page.site_mail }}</a>, describe how you can contribute and after a validation process you will get login credentials for MISP and OpenCVE. Use your professional or corporate email address and optionally attach your public PGP or S/MIME key. The MISP accounts require authentication with <strong>OTP</strong>. Accounts are setup for name-based addresses (<i>your.name@company.com</i>), and not for generic addresses (<i>info@company.com</i>).</p>
-
-<p>Events and information are shared under the conditions of the <a href="https://www.circl.lu/pub/traffic-light-protocol/">Traffic Light Protocol (TLP)</a>. Every participant is obliged to comply with the classification. Naturally, you are responsible for the information you share. In your request e-mail acknowledge that you <strong>agree with these sharing and classification conditions</strong>, and educate the users of the organisation you will be MISP OrgAdmin for about those rules, too. The acknowledgement is <strong>mandatory</strong> for processing the request.</p>
-
 <p>If you already have a MISP instance installed (which is usually more convenient for automation), you can also already provide us the MISP UUID of your organization.</p>
+
+<p>Events and information are shared under the conditions of the <a href="https://www.circl.lu/pub/traffic-light-protocol/">Traffic Light Protocol (TLP)</a>. Every participant is obliged to comply with the classification. Naturally, you are responsible for the information you share. 
+Acknowledge via <strong>e-mail</strong> that you <strong>agree with the sharing and classification conditions</strong>, and educate the users of your (MISP) organisationo. The acknowledgement is <strong>mandatory</strong> for processing the request.</p>
 
 <h3>MISP events</h3>
 <p>The MISP instance is <i>bootstrapped</i> with ICS relevant events shared under tlp:clear (tlp:white). It is then up to the community to further add relevant events.</p>
 <p>There is an automatic curation process for events synchronised from other MISP servers, this includes checks with MISP warninglists and the CIRCL Hashlookup service. Only events tagged with <strong>workflow:state=complete</strong> are considered complete and ready to be used.</p>
+
+<h3>Sharing and classification conditions</h3>
+<h4 id="introduction">Introduction</h4>
+<p>This document outlines the terms of use for the MISP instance operated by ICS-CSIRT.io. All users must agree to these terms to access and use this platform.</p>
+<h4 id="1-acceptance-of-terms">1. Acceptance of Terms</h4>
+<p>By accessing or using the MISP instance, you agree to comply with these terms of use. If you do not agree to the terms, you should not access or use this MISP instance.</p>
+<h4 id="2-user-obligations-and-conduct">2. User Obligations and Conduct</h4>
+<ul>
+<li><strong>2.1.</strong> Users must ensure the security of their credentials and should not share them with others.</li>
+<li><strong>2.2.</strong> Users are responsible for the accuracy and integrity of the information they contribute.</li>
+<li><strong>2.3.</strong> Users must respect the privacy and confidentiality of the information shared on the MISP platform.</li>
+</ul>
+<h4 id="3-traffic-light-protocol-tlp-compliance">3. Traffic Light Protocol (TLP) Compliance</h4>
+<ul>
+<li><strong>3.1.</strong> All shared information within this MISP instance must adhere to the Traffic Light Protocol (TLP) classification system.</li>
+<li><strong>3.2.</strong> TLP Classifications:<ul>
+<li><strong>TLP:RED</strong> - Information classified as TLP:RED is intended for the personal use of the recipient only, with no further dissemination allowed.</li>
+<li><strong>TLP:AMBER</strong> - TLP:AMBER information is restricted to participants&#39; organizations, and only to those who need to know the information to protect their organization.</li>
+<li><strong>TLP:GREEN</strong> - TLP:GREEN information is limited to the community but may be shared with peers within the community.</li>
+<li><strong>TLP:CLEAR</strong> - TLP:CLEAR information can be distributed freely, without any restriction. (TLP:WHITE is a synonym)</li>
+</ul>
+</li>
+<li><strong>3.3.</strong> Users must comply with the dissemination restrictions associated with each TLP level.</li>
+<li><strong>3.4.</strong> If a TLP classification is not set on an event, the default classification is TLP:AMBER.</li>
+</ul>
+<h4 id="4-data-handling-and-security">4. Data Handling and Security</h4>
+<ul>
+<li><strong>4.1.</strong> Users must take appropriate measures to ensure the security and integrity of information on the MISP platform.</li>
+<li><strong>4.2.</strong> Any breach of data security must be reported immediately to the MISP administrators to info@ics-csirt.io.</li>
+</ul>
+<h4 id="5-violation-of-terms">5. Violation of Terms</h4>
+<ul>
+<li><strong>5.1.</strong> Violations of these terms may result in suspension or termination of access to the MISP platform.</li>
+<li><strong>5.2.</strong> Serious violations may lead to legal action, depending on the severity and impact of the breach.</li>
+</ul>
+<h4 id="6-modification-of-terms">6. Modification of Terms</h4>
+<ul>
+<li><strong>6.1.</strong> ICS-CSIRT.io reserves the right to modify these terms at any time. Users will be notified of any changes.</li>
+</ul>
+<h4 id="7-contact-information">7. Contact Information</h4>
+<p>For any questions or concerns regarding these terms, please contact info@ics-csirt.io</p>
 
 <div class="clearfix">
     <ul>
